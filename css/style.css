@@ -1,0 +1,60 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-link:hover {
+  color: #0d6efd !important;
+}
+
+#inicio {
+  background: url('../assets/img/bg.jpg') center/cover no-repeat;
+}
+
+#inicio img {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+}
+
+#inicio .btn {
+    transition: 0.3s;
+}
+
+#inicio .btn:hover {
+    transform: translateY(-3px);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+#habilidades .p-4:hover {
+    background-color: #0a0a0a;
+    transform: translateY(-6px);
+    transition: 0.3s;
+}
+
+.form-control::placeholder {
+    color: #6c757d; 
+}
+
+#contacto .form-control {
+    border-color: #444;
+}
+
+.form-control:focus {
+    background-color: #212529;
+    color: #f8f9fa;
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25); 
+}
+
+section:not(#inicio) {    
+    padding-top: 6rem;
+}
+
+.navbar-nav .nav-link.active {
+    color: #0d6efd !important;
+    font-weight: 600;
+}
